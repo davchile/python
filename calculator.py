@@ -18,4 +18,15 @@ print(x + y)
 x = float(input("What's x? "))
 y = float(input("What's y? "))
 
-print(f"{round(x + y, 2):,}")
+# print(f"{round(x + y, 2):,}") # this line shows the result and its decimals, then rounds it and put a comma the separate digits
+
+# z = round(x + y) # rounds the result
+
+# print(f"{z:,}") # put a comma to separate digits
+
+# division and round with two digits
+z = round(x / y, 2)
+
+print(z)
+
+
