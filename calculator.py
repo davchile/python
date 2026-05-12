@@ -29,7 +29,7 @@ y = float(input("What's y? "))
 
 print(z)
 """
-# but if I want to use a format string
+# but if I want to use a format string. Here I am separating digits and having two decimals using format string.
 z = x / y
 
 print(f"{z:,.2f}")
