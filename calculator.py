@@ -25,8 +25,13 @@ y = float(input("What's y? "))
 # print(f"{z:,}") # put a comma to separate digits
 
 # division and round with two digits
-z = round(x / y, 2)
+"""z = round(x / y, 2)
 
 print(z)
+"""
+# but if I want to use a format string
+z = x / y
+
+print(f"{z:,.2f}")
 
 
