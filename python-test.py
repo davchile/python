@@ -53,10 +53,10 @@ hello(name)
 """
 # Standard way to structure your code
 def main():
-    name = input("What's your name? ")
-    hello(name)
+    name = input("What's your name? ") # variable
+    hello(name) # this function call will execute later when main() runs, name is the variable/input
 
-def hello(to="world"):
-    print("Hello,", to)
+def hello(to): # I define hello with "to" as the parameter
+    print("Hello,", to) # print uses the argument passed through the variable "name"
 
-main()
+main() # here is where python executes hello(name), passing the value of "name" as an argument to the parameter "to"
