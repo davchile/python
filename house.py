@@ -35,7 +35,7 @@ match name:
     case _: # similarly to "else" construct this underline means to say "whatever case has not yet been handled" go ahead and, in this case print "Who"
         print("Who")
 """
-# and finally using a single bar to express the same idea bot more concisely
+# and finally using a single bar to express the same idea but more concisely
 match name:
     case "Harry" | "Hermione" | "Ron":
         print("Gryffindor")

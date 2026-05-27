@@ -15,7 +15,7 @@ def main():
     else:
         print("Odd")
 """        
-def is_even(n): # now that I have my own boolean function that answers this question for me, I can use it in this program forward o another one.
+def is_even(n): # now that I have my own boolean function that answers this question for me, I can use it in this program forward or in another one.
     if n % 2 == 0:
         return True
     else:
